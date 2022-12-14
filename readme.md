@@ -1,9 +1,10 @@
 Changelog
 ================
-
+- Update support for laravel 8,9
+- Update support for php 8
+- Update composer for ps-4 compliance in tests directory
 - Update support for Laravel 6 & phpunit 8
-- Update composer.json
-- Upgrade to PSR-4
+- Update composer.json 
 - add parameter newline, delimiter, enclosure, and escape to export csv
 - When converting a XML to an array, convert @attributes to _attribute_
 - add parameter encoding and formated to export xml
