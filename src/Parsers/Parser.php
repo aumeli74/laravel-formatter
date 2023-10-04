@@ -103,10 +103,11 @@ abstract class Parser
 
                 // if there is another array found recursively call this function
                 if (is_array($value) or is_object($value)) {
-                    $node = $structure->addChild($key);
                     if (empty($key)) {
                      return ;
                     }
+
+                    $node = $structure->addChild($key);
 
                     // recursive call if value is not empty
                     if (!empty($value)) {
