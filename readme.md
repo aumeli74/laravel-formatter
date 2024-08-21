@@ -1,6 +1,6 @@
 Changelog
 ================
-- Update support for laravel 8,9
+- Update support for laravel  11,10,8,9
 - Update support for php 8
 - Update composer for ps-4 compliance in tests directory
 - Update support for Laravel 6 & phpunit 8
